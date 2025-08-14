@@ -7,7 +7,7 @@ The OpenSearch module needs to know upon which database perform the searches.
 
 Follow these steps:
 
-* Setup a standard PostGIS database pointing to the database and schema created above
+* Setup a standard PostGIS datastore pointing to the database and schema created above
   from the SQL file. Note down the full name of the store (e.g. ``test:metadata`` where ``test``
   is the workspace and ``metadata`` is the store name). 
   Besides filling the connection parameters, remember to set "expose primary keys" to true.
